@@ -1,0 +1,10 @@
+Objective:- to organise the shelf-life of food items
+
+Procedure:-
+1. Created a database(Mysql) tables to store the expiry date of food items and to store the items bought by customer respectively
+2. Whenever a customer buy something his/her food list will be added in the database of that customer.
+3. There is a variable which count the the date passed after an item of a customer is bought.
+4. Each day that variable will be update and as soon as it exceeds its expiry date, then that item will be deleted from the customer list with message.
+
+Code and database:- Shelf-life directory
+#The code contains explanation of each function/lcode line in the notebook

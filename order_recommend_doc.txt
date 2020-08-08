@@ -1,0 +1,11 @@
+Objective:- To predict the order time for  a customer from it's history and notify him/her.
+
+procedure:-
+1. Either create a synthetic dataset or get it from Naaniz
+2. group the data customer-wise
+3. using the the past orders of a customer predict the time he/she is likely to order.
+4. for that we used a simple method of using the frequency/occurence distribution of each time.
+5. we also gave more weights to the recent orders than the older one. 
+6. recommend the top k sorted time.
+
+Dataset/Codes:- Order_Recommend directory

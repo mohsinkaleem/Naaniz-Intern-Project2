@@ -1,0 +1,11 @@
+Objective:- To extract the food-items from the bills/invoices using OCR and then segregating it into group of fruits, vegetables and packed-food.
+
+Procedure:-
+1. For recogination of text from image of bills, We used an Api(http://ocr.space/).
+2. After getting the text results from the api we preprocessed and cleaned the text into table format.
+3. Store all the items in a list and then based on user choice we translated it into another language.
+4. For translation we used an (google translator api).
+5. We segregated the items into its corresponding group after looking it's category  from the database.   
+
+Code and database:- OCR directory
+#The code contains explanation of each function/lcode line in the notebook

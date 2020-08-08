@@ -1,0 +1,11 @@
+Objective:- To find points on neck and resize the necklace to place on the neck.
+
+Procedure:-
+1. We imported opencv, face_recognition of dlib, PIL and numpy.
+2. We found facial landmarks using face recognition and also found the chin location.
+3. Jewelry width & height calculated using face chin coordinates.
+4. We add both images so that the black region in any image will result in another image non black regions being rendered over that area.
+5. And finally we replace jewel area with newly created jewel_area.
+
+
+

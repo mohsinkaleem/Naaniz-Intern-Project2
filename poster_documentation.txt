@@ -1,0 +1,10 @@
+Objective:- To automatically generate poster which containd caompany logo, food-item(user choice), recipes, footer
+
+Procedure:-
+1. We used pre-define template which had space for food-item which would be selected by user.
+2. Once user chooses the food it will automatically put the food item and it's recipe in the blank space of the template.
+3.Footer contains the contact and link info. 
+3. Finally the image will be downloaded.
+
+Code and template example is in the Poster directory.
+#The code contains explanation of each function/lcode line in the notebook
